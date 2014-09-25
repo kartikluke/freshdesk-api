@@ -17,7 +17,7 @@ class Freshdesk
   end
 
   def response_format
-    @response_format ||= "xml"
+    @response_format ||= "json"
   end
 
   # Specify the response format to use--JSON or XML. Currently JSON is only
